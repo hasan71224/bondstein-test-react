@@ -1,15 +1,15 @@
 # bondstein-test-website
 
-Bondstein test website [bondstein-test-website Live](bondstein-test-website.netlify.app).
+Bondstein test website [bondstein-test-website Live](https://bondstein-test-website.netlify.app/).
 
-## Available Scripts
+## bondstein-test-website
 
 In the project directory, you can run:
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://bondstein-test-website.netlify.app/](https://bondstein-test-website.netlify.app/) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
