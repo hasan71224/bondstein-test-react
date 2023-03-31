@@ -1,0 +1,100 @@
+.create-section{
+    padding: 10px 130px;
+    margin: 50px 0px;
+}
+.create-contents{
+    text-align: left;
+    padding-top: 100px;
+}
+.create-contents h1{
+    font-size: 30px;
+    font-weight: 800;
+    padding: 20px 0px;
+}
+.create-contents button{
+    font-size: 16px;
+    padding: 7px 20px;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+.create-contents button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(25, 0, 255);
+}
+.create-section {
+    padding: 10px 50px;
+    margin: 50px 0px;
+}
+
+
+
+
+@media only screen and (min-width: 1201px) and (max-width:1600px) {   
+}
+
+@media only screen and (min-width: 994px) and (max-width:1200px) {
+    .create-section {
+        padding: 10px 50px;
+    }
+    .create-contents {
+        text-align: left;
+        padding-top: 0px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width:993px) { 
+    .create-contents h1 {
+        font-size: 22px;
+    }
+    .create-contents p {
+        font-size: 12px;
+    }
+    .create-contents {
+        text-align: left;
+        padding-top: 0px;
+    } 
+    .create-section {
+        padding: 10px 50px;
+        margin: 50px 0px;
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width:768px) {
+    .create-contents h1 {
+        font-size: 18px;
+    }
+    .create-contents p {
+        font-size: 10px;
+    }
+    .create-contents {
+        text-align: left;
+        padding-top: 0px;
+    }
+    .create-section {
+        padding: 10px 50px;
+        margin: 50px 0px;
+    }
+}
+@media only screen and (min-width: 423px) and (max-width:550px) {
+    .create-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .create-section {
+        padding: 10px 50px;
+        margin: 50px 0px;
+    }
+}
+@media only screen and (max-width: 422px) {
+    .create-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .create-section {
+        padding: 10px 20px;
+        margin: 50px 0px;
+    }
+}

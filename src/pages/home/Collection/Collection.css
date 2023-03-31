@@ -1,0 +1,232 @@
+.container-section{
+    padding: 10px 130px;
+    margin: 50px 0px;
+}
+.grid-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.image1 img{
+    width: 70%;
+}
+.person-text h4{
+    font-weight: bold;
+    font-size: 15px;
+}
+.person-img img{
+    width: 80%;
+}
+.person-text p{
+    font-size: 12px;
+    text-align: left;
+}
+.highest-bid h5{
+    font-size: 12px;
+}
+.ethereum{
+    align-items: center;
+    gap: 3px;
+}
+.ethereum img{
+    width: 12%;
+    height: 10%;
+}
+.ethereum p{
+    font-size: 10px;
+    font-weight: bold;
+}
+.highest-bid{
+    margin-left: 60px;
+}
+/* ============================================ */
+.first-row{
+    margin-bottom: 15px;
+}
+.collection-person{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+.collection-name h2{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+}
+.collection-2 img{
+    width: 115px;
+}
+.person-img2 img{
+    width: 50%;
+}
+.green-ethereum{
+    display: flex;
+    align-items: center;
+    margin-left: -17px;
+    margin-right: 5px;
+    padding: 1px 3px;
+    border: 1px solid #00AC4F;
+    border-radius: 5px;
+    font-size: 12px;
+    gap: 3px;
+}
+.one-eight{
+    font-size: 12px;
+}
+.collection-texts{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.collection-texts .place-button{
+    text-align: left;
+}
+.collection-texts button{
+    border: none;
+    background-color: blue;
+    font-size: 13px;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    text-align: left;
+    transition: 0.4s;
+}
+.collection-texts button:hover{
+    border: 1px solid blue;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+}
+/* ======================================== */
+.third-column{
+    border-left: 1px solid #ECECEC;
+    padding: 0px 0px 0px 25px;
+}
+.collection-title h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+.collection-title p{
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+    text-align: left;
+}
+.collection-list{
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #ECECEC;
+}
+.collection-list-5{
+    padding: 10px 0px 10px 0px;
+}
+.collection-list h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+.collection-list-5 h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+.collection-img img{
+    width: 45px;
+}
+.crypto-img img{
+    width: 10%;
+    height: 0%;
+}
+.crypto-img p{
+    font-size: 13px;
+}
+.collection-list h5{
+    font-weight: bold;
+    color: #14C8B0;
+    margin-left: 10px;
+}
+.collection-list-5 h5{
+    font-weight: bold;
+    color: #14C8B0;
+    margin-left: 10px;
+}
+.text-color{
+    color: red !important;
+}
+
+
+
+
+@media only screen and (min-width: 1201px) and (max-width:1600px) {   
+}
+
+@media only screen and (min-width: 994px) and (max-width:1200px) {
+    .image1 img{
+        width: 90%;
+        height: 300px;
+    }
+    .highest-bid {
+        margin-left: 25px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width:993px) {  
+    
+    .grid-section {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .image1 img {
+        width: 90%;
+    }
+    .highest-bid {
+        margin-left: 25px;
+    }
+    .container-section {
+        padding: 10px 50px;
+        margin: 50px 0px;
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width:768px) {
+    .container-section {
+        padding: 10px 50px;
+        margin: 50px 0px;
+    }
+    .grid-section {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .image1 img {
+        width: 90%;
+    }
+    .highest-bid {
+        margin-left: 25px;
+    }
+}
+@media only screen and (min-width: 423px) and (max-width:550px) {
+    .container-section {
+        padding: 10px 50px;
+        margin: 50px 0px;
+    }
+    .grid-section {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .image1 img {
+        width: 90%;
+    }
+    .highest-bid {
+        margin-left: 25px;
+    }
+}
+@media only screen and (max-width: 422px) {
+    .container-section {
+        padding: 10px 50px;
+        margin: 50px 0px;
+    }
+    .grid-section {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .image1 img {
+        width: 90%;
+    }
+    .highest-bid {
+        margin-left: 25px;
+    }
+}

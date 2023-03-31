@@ -1,0 +1,75 @@
+.copyright{
+    border-top: 1px solid #ededed;
+}
+.footer-top{
+    padding: 100px 150px;
+}
+.footer-top {
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer-one span{
+    font-size: 25px;
+    color: black;
+    opacity: 1;
+}
+.footer-title{
+    opacity: 1;
+}
+.footer-one p{
+    font-size: 15px;
+    text-align: left;
+}
+.email-filed{
+    margin-top: 20px;
+}
+.email-filed input{
+    border-radius: 30px;
+    font-size: 15px;
+}
+.email-filed button{
+    font-size: 11px;
+    border-radius: 30px;
+}
+input{
+    margin-left: 0px;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1201px) and (max-width:1600px) {   
+}
+
+@media only screen and (min-width: 994px) and (max-width:1200px) {
+}
+@media only screen and (min-width: 769px) and (max-width:993px) {  
+    .footer-top {
+        gap: 50px;
+        padding: 100px 50px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width:768px) {
+    .footer-top {
+        gap: 30px;
+        padding: 100px 50px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width: 423px) and (max-width:550px) {
+    .footer-top {
+        gap: 30px;
+        padding: 100px 50px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (max-width: 422px) {
+    .footer-top {
+        gap: 30px;
+        padding: 100px 50px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

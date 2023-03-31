@@ -1,0 +1,139 @@
+.featured{
+    margin: 50px 0px;
+    padding: 50px 130px;
+    background: rgba(217, 224, 236, 0.2);
+}
+.featured-title{
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+.section-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    text-align: left;
+}
+.section-container h2{
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.titles{
+    display: flex;
+    gap: 10px;
+    margin-left: -35px;
+    margin-bottom: 15px;
+}
+.titles h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.titles img{
+    width: 25px;
+}
+
+.first-collection{
+    display: flex;
+    gap: 10px;
+}
+.sub-collection img{
+    margin-bottom: 10px;
+    width: 90%;
+}
+.items-button a{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.items-button a:hover{
+    background-color: rgb(17, 0, 255);
+    color: rgb(255, 255, 255);
+    border: 1px solid blue;
+}
+.collection-column img{
+    height: 280px;
+    width: 400px;
+}
+
+
+
+
+@media only screen and (min-width: 1201px) and (max-width:1600px) {   
+    .collection-column img {
+        height: 100%;
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width: 994px) and (max-width:1200px) {
+    .collection-column img {
+        height: 100%;
+        width: 400px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width:993px) { 
+    .collection-column img {
+        height: 100%;
+        width: 400px;
+    }
+    .section-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    } 
+    .featured {
+        padding: 50px 50px;
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width:768px) {
+    .collection-column img {
+        height: 100%;
+        width: 400px;
+    }
+    .section-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    } 
+    .featured {
+        padding: 50px 50px;
+    }
+}
+@media only screen and (min-width: 423px) and (max-width:550px) {
+    .collection-column img {
+        height: 100%;
+        width: 400px;
+    }
+    .section-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    } 
+    .featured {
+        padding: 50px 50px;
+    }
+}
+@media only screen and (max-width: 422px) {
+    .collection-column img {
+        height: 100%;
+        width: 400px;
+    }
+    .section-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    } 
+    .featured {
+        padding: 50px 50px;
+    }
+}
